@@ -1,0 +1,52 @@
+.backgroundmovement1 {
+  animation-name: backgroundmovement_kf;
+  animation-duration: 30s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundmovement_kf {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* wave animationer */
+.wave_anim1 {
+  animation-name: wave_anim1_kf;
+  animation-duration: 10s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wave_anim1_kf {
+  0% {
+    transform: translate1(-10px);
+  }
+  50% {
+    transform: translatey(20px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+.delay1 {
+  animation-delay: 0.5s;
+}
+
+.delay2 {
+  animation-delay: 0.8s;
+}
+.delay3 {
+  animation-delay: 1.2s;
+}
+.delay4 {
+  animation-delay: 1.5s;
+}
