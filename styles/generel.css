@@ -11,8 +11,58 @@ img {
   box-sizing: border-box;
 }
 
+/* Custom CSS properties */
+html {
+  /* fonte */
+  --F-h1: "Fira Sans Condensed", sans-serif;
+  --F-h2: "Lato", sans-serif;
+  --F-h3: "Alegreya Sans", sans-serif;
+  --F-p: "Duru Sans", sans-serif;
+
+  /* farver */
+  --C-darkpurple: #4a1942;
+  --C-purple: #893068;
+  --C-lightpurple: #d0acc3;
+
+  --C-darkgreen: #7c896f;
+  --C-green: #a4b494;
+  --C-lightgreen: #bec5ad;
+
+  --C-black: #070606;
+  --C-grey: #666666;
+  --C-lightgrey: #cacaca;
+  --C-white: #f7f7f7;
+
+  /* padding og margin */
+  --M-lrg: 3rem;
+  --M-mdm: 2rem;
+  --M-sml: 1rem;
+
+  --P-lrg: 3rem;
+  --P-mdm: 2rem;
+  --P-sml: 1rem;
+}
+
+h1 {
+  font-family: var(--F-h1);
+}
+h2 {
+  font-family: var(--F-h2);
+}
+h3 {
+  font-family: var(--F-h3);
+}
+
 p {
   color: blue;
+  font-family: var(--F-p);
+}
+
+.lighttext {
+  color: var(--C-lightgrey);
+}
+.darktext {
+  color: var(--C-black);
 }
 
 /* INDEX */
@@ -21,7 +71,7 @@ p {
   aspect-ratio: 16/9;
   position: relative;
   overflow: hidden;
-  background-color: lightgrey;
+  background-color: var(--C-green);
 }
 
 #backgroundblur {
@@ -34,7 +84,7 @@ p {
   filter: blur(30px);
 }
 
-.dot1 {
+/* .dot1 {
   height: 25%;
   width: 40%;
   background-color: red;
@@ -52,23 +102,40 @@ p {
   position: absolute;
   top: 30%;
   left: 70%;
-}
+} */
 
 /* HEROTEKST */
 .herotext_container {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 28%;
-  left: 15%;
-  font-size: 9rem;
+  top: 20%;
+  left: 14%;
   z-index: 10;
 }
 
 .herotext {
   width: 100%;
   height: 100%;
-  color: blue;
+  color: var(--C-purple);
+  font-size: 17cqw;
+}
+
+.subherotext_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 51.5%;
+  left: 62%;
+  z-index: 10;
+}
+
+.subherotext {
+  width: 100%;
+  height: 100%;
+  color: var(--C-grey);
+  font-family: var(--F-h2);
+  font-size: 4cqw;
 }
 
 /* Bølger */

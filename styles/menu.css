@@ -1,0 +1,24 @@
+nav a {
+  text-decoration: none;
+  color: var(--C-darkpurple);
+  font-family: var(--F-h3);
+}
+nav h2 {
+  width: 60%;
+}
+
+.headerflex {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--M-sml);
+}
+
+.headerflex .menuflex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
