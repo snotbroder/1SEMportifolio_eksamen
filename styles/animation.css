@@ -20,7 +20,7 @@
 /* wave animationer */
 .wave_anim1 {
   animation-name: wave_anim1_kf;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 }
@@ -45,8 +45,8 @@
   animation-delay: 0.8s;
 }
 .delay3 {
-  animation-delay: 1.2s;
+  animation-delay: 1s;
 }
 .delay4 {
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
 }
