@@ -125,6 +125,6 @@ p {
 #wave5 {
   width: 100%;
   height: 100%;
-  background-image: url(../media/dummyimage.svg);
+  background-image: url(../media/dummyimage.SVG);
   background-size: cover;
 }
