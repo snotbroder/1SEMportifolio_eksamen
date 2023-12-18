@@ -1,0 +1,21 @@
+@media (min-width: 800px) {
+  .col1 {
+    display: grid;
+    order: -1;
+  }
+  .col2 {
+    display: grid;
+  }
+
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid4-1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    margin-left: var(--D-mdm);
+    margin-right: var(--D-mdm);
+  }
+}
