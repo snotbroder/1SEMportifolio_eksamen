@@ -22,13 +22,13 @@ header .navbar .menu {
 }
 
 header .navbar:hover {
-  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: var(--A-sftst);
   background-color: var(--C-lightgreen);
   border-radius: 5px;
 }
 
 header .navbar {
-  transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: var(--A-sftr);
 }
 
 header .navbar .menu li {
@@ -51,7 +51,7 @@ header .navbar .menu li a {
 header .navbar .menu li a:hover {
   color: var(--C-purple);
   transform: scale(1.25);
-  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: var(--A-sft);
 }
 
 /* Submenu (projekter) */
