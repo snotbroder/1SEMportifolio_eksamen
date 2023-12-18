@@ -44,17 +44,13 @@ html {
   --S-lrg: 3rem;
   --S-mdm: 2.5rem;
   --S-sml: 2rem;
+  --S-smlr2: 1.7rem;
   --S-smlr: 1.2rem;
   --S-smlst: 0.8rem;
   --S-mini: 0.2rem;
 }
 
-.ikonmenu {
-  width: auto;
-  height: 30%;
-  padding-left: var(--S-mini);
-}
-
+/* -- Tekst style -- */
 h1 {
   font-family: var(--F-h1);
   font-size: var(--S-lrgr);
@@ -80,6 +76,27 @@ p {
 }
 .darktext {
   color: var(--C-black);
+}
+
+/* -- CTA-knapper */
+.cta2 {
+  width: auto;
+  padding: var(--S-smlr) var(--S-lrgst);
+  font-family: var(--F-h2);
+  font-size: var(--S-smlr2);
+  color: var(--C-white);
+  background-color: var(--C-purple);
+  border: none;
+  border-radius: 3px;
+
+  box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
+}
+
+.cta2:hover {
+  transform: scale(1.1);
+  color: var(--C-lightgreen);
 }
 
 /* INDEX */

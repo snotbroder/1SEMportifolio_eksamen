@@ -28,30 +28,34 @@
 </head>
 
 <body>
-    <header></header>
+
 
 
     <section id="herosection">
-        <nav class="headerflex">
-            <div class="logo">
-                <h2>LOGO</h2>
-            </div>
-            <!-- <img src="" alt="LOGO"> -->
-            <div class="menuflex">
-                <a href="#">Projekter <img class="ikonmenu" src="media/ikon_pilned.svg" alt="pilned ikon"></a>
+        <header>
+            <a href="#">LOGO</a>
+            <input type="checkbox" id="burger-menu">
+            <label for="burger-menu"> <img class="burgermenu" src="media/ikon_burgermenu.svg" alt=""></label>
 
-                <!-- drop down menu sat på pause -->
-                <!-- <ul id="submenu">
-                    <li><a href="#">Tema_02</a></li>
-                    <li><a href="#">Tema_03</a></li>
-                    <li><a href="#">Tema_04</a></li>
-                    <li><a href="#">Tema_05</a></li>
-                    <li><a href="#">Tema_06</a></li> 
-                </ul> -->
-                <a href="#">Om mig<img class="ikonmenu" src="media/ikon_mig.svg" alt="om mig ikon"></a></a></li>
-                <a href="#">Galleri<img class="ikonmenu" src="media/ikon_galleri.svg" alt="galleri ikon"></a></a></li>
-            </div>
-        </nav>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="#">Projekter <img class="ikonmenu" src="media/ikon_pilned.svg" alt=""></a>
+                        <ul class="submenu">
+                            <li><a href="#">Tema_02</a></li>
+                            <li><a href="#">Tema_03</a></li>
+                            <li><a href="#">Tema_04</a></li>
+                            <li><a href="#">Tema_05</a></li>
+                            <li><a href="#">Tema_06</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Om mig <img class="ikonmenu" src="media/ikon_mig.svg" alt=""></a></li>
+                    <li><a href="#">Galleri <img class="ikonmenu" src="media/ikon_galleri.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
         <div class="herotext_container">
             <h1 class="herotext">PORTFOLIO</h1>
         </div>
@@ -98,14 +102,20 @@
                     <div class="col1">
                         <h1>Tema_02 Web</h1>
                     </div>
-                    <div class="col2">
-                        <p>Her lærte vi om grid, layoutdiagrammer og basal styling af tekst, baggrunde og menuer</p>
+                    <div class="col2 ">
+                        <p>Her lærte vi om grid, layoutdiagrammer og basal styling af tekst, baggrunde
+                            og menuer</p>
                     </div>
                 </div>
             </div>
             <div class="col2">
-                <div class="flexcolumn">
-                    <a class="cta2" href="#">Hej</a>
+                <div class="flexcolumn1">
+                    <button class="cta2">Tema_02</button>
+                    <button class="cta2">Tema_03</button>
+                    <button class="cta2">Tema_04</button>
+                    <button class="cta2">Tema_05</button>
+                    <button class="cta2">Tema_06</button>
+
                 </div>
             </div>
         </div>
