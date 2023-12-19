@@ -1,19 +1,38 @@
 .backgroundmovement1 {
   animation-name: backgroundmovement_kf;
   animation-duration: 30s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
 }
 
 @keyframes backgroundmovement_kf {
   0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-200px);
+    left: 100%;
+    top: 80%;
+    background-color: orange;
   }
   100% {
-    transform: translateX(0);
+    left: 10%;
+    top: -50%;
+    background-color: yellow;
+  }
+}
+
+.backgroundcolor {
+  animation-name: backgroundcolor_kf;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes backgroundcolor_kf {
+  0% {
+    background-color: darkblue;
+  }
+  25% {
+    background-color: lightblue;
+  }
+  100% {
+    background-color: var(--C-green);
   }
 }
 

@@ -81,7 +81,7 @@ header .navbar .menu li .submenu a {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1060px) {
   .ikonmenu {
     width: 4%;
     padding-left: var(--S-mini);

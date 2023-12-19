@@ -99,7 +99,7 @@ p {
 
 /* -- CTA-knapper */
 .cta1 {
-  width: auto;
+  max-height: 60%;
   padding: var(--S-smlr) var(--S-lrgst);
   margin: var(--D-sml);
   font-family: var(--F-h2);
@@ -205,32 +205,22 @@ p {
   filter: blur(30px);
 }
 
-/* .dot1 {
-  height: 25%;
-  width: 40%;
-  background-color: red;
+.dot1 {
+  height: 30%;
+  width: 20%;
+  background-color: orange;
   border-radius: 50%;
   position: absolute;
   top: 20%;
   left: 50%;
 }
 
-.dot2 {
-  height: 35%;
-  width: 10%;
-  background-color: purple;
-  border-radius: 50%;
-  position: absolute;
-  top: 30%;
-  left: 70%;
-} */
-
 /* HEROTEKST */
 .herotext_container {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 27%;
+  top: 21%;
   left: 23.5%;
   z-index: 10;
 }
@@ -247,7 +237,7 @@ p {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 53.5%;
+  top: 51.5%;
   left: 66%;
   z-index: 10;
 }
@@ -391,7 +381,7 @@ p {
 
 footer {
   background-color: var(--C-lightgreen);
-  height: auto;
+  height: 100rem;
 
   padding: var(--D-lrgst) var(--D-lrgst) var(--D-sml) var(--D-lrgst);
 }
@@ -400,7 +390,10 @@ footer {
   color: var(--C-darkpurple);
   font-family: var(--F-h3);
   font-size: var(--S-sml);
-  padding-bottom: var(--D-lrg);
+}
+
+footer .grid1-1-1 {
+  height: 20rem;
 }
 
 .footerunderlink {
@@ -408,4 +401,10 @@ footer {
   color: var(--C-purple);
   font-family: var(--F-h2);
   font-size: var(--S-smlr);
+}
+
+.footerlink:hover,
+.footerunderlink:hover {
+  color: var(--C-white);
+  transition: var(--A-sftr);
 }
