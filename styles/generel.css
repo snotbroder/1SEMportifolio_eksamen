@@ -61,7 +61,7 @@ html {
 h1 {
   font-family: var(--F-h1);
   font-size: var(--S-lrgr);
-  color: var(--C-black);
+  color: var(--C-darkpurple);
 
   margin-top: var(--D-mdm);
   margin-bottom: var(--D-mdm);
@@ -109,6 +109,7 @@ p {
   border: none;
   border-radius: 3px;
   text-align: center;
+  text-decoration: none;
 
   box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
   -webkit-box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
@@ -134,6 +135,7 @@ p {
 
 .cta2 {
   width: auto;
+  max-width: 20rem;
   padding: var(--S-smlr) var(--S-lrgst);
   margin: var(--D-sml);
   font-family: var(--F-h2);
@@ -143,7 +145,7 @@ p {
   border: none;
   border-radius: 3px;
   text-align: center;
-
+  text-decoration: none;
   box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
   -webkit-box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: 1px 10px 5px -6px rgba(0, 0, 0, 0.48);
@@ -186,6 +188,16 @@ p {
   -webkit-box-shadow: 2px 31px 27px -5px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 2px 31px 27px -5px rgba(0, 0, 0, 0.54);
 }
+
+/* -- Billede styling -- */
+
+.imgTyp1 {
+  margin-top: var(--D-sml);
+  margin-bottom: var(--D-sml);
+  border-radius: 3px;
+  max-height: 25rem;
+}
+
 /* INDEX */
 #herosection {
   width: 100%;
@@ -211,8 +223,8 @@ p {
   background-color: orange;
   border-radius: 50%;
   position: absolute;
-  top: 20%;
-  left: 50%;
+  left: 10%;
+  top: -50%;
 }
 
 /* HEROTEKST */
@@ -381,8 +393,7 @@ p {
 
 footer {
   background-color: var(--C-lightgreen);
-  height: 100rem;
-
+  height: auto;
   padding: var(--D-lrgst) var(--D-lrgst) var(--D-sml) var(--D-lrgst);
 }
 .footerlink {
@@ -407,4 +418,11 @@ footer .grid1-1-1 {
 .footerunderlink:hover {
   color: var(--C-white);
   transition: var(--A-sftr);
+}
+
+.footerafslutning {
+  font-family: var(--F-p);
+  font-size: var(--S-smlst);
+  color: var(--C-grey);
+  margin-top: var(--D-lrg);
 }

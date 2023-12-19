@@ -1,6 +1,6 @@
 .center {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   text-align: center;
 }
 .right {
@@ -34,6 +34,14 @@
   .grid1-1_no_mar {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid5-4 {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    margin-left: var(--D-mdm);
+    margin-right: var(--D-mdm);
+    gap: 2rem;
   }
 
   .grid4-1 {
