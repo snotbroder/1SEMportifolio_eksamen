@@ -72,13 +72,6 @@
     flex-direction: column;
     justify-content: space-between;
   }
-
-  .flexbox1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 1060px) {
@@ -91,4 +84,19 @@
     padding-left: var(--D-sml);
     padding-right: var(--D-sml);
   }
+
+  .flexbox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Flexbox glæder både desktop og mobile */
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }

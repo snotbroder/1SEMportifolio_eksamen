@@ -45,8 +45,8 @@ html {
   --S-lrgr: 4rem;
   --S-lrg: 3rem;
   --S-mdm: 2.5rem;
-  --S-sml: 2rem;
-  --S-smlr2: 1.7rem;
+  --S-sml: 1.6cqw;
+  --S-smlr2: 1.4cqw;
   --S-smlr: 1.2rem;
   --S-smlst: 0.8rem;
   --S-mini: 0.2rem;
@@ -103,7 +103,7 @@ p {
   padding: var(--S-smlr) var(--S-lrgst);
   margin: var(--D-sml);
   font-family: var(--F-h2);
-  font-size: var(--S-smlr2);
+  font-size: var(--S-sml);
   color: var(--C-lightpurple);
   background-color: var(--C-grey);
   border: none;
@@ -134,11 +134,12 @@ p {
 }
 
 .cta2 {
-  max-width: 6vw;
-  padding: var(--S-smlr) var(--S-lrgst);
+  width: 15vw;
+  height: 5vh;
+  padding: var(--D-sml);
   margin: var(--D-sml);
   font-family: var(--F-h2);
-  font-size: var(--S-smlr2);
+  font-size: var(--S-sml);
   color: var(--C-lightpurple);
   background-color: var(--C-purple);
   border: none;
