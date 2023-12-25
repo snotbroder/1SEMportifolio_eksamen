@@ -135,8 +135,9 @@ p {
 
 .cta2 {
   width: 15vw;
-  height: 5vh;
-  padding: var(--D-sml);
+  height: 7vh;
+  padding-top: var(--D-sml);
+  padding-bottom: var(--D-sml);
   margin: var(--D-sml);
   font-family: var(--F-h2);
   font-size: var(--S-sml);
@@ -452,4 +453,24 @@ footer .grid1-1-1 {
   font-size: var(--S-smlst);
   color: var(--C-grey);
   margin-top: var(--D-lrg);
+}
+
+.pil_container {
+  position: absolute;
+  width: 6%;
+
+  top: 77%;
+  left: 47.5%;
+  border-radius: 500px;
+  background-color: rgba(255, 255, 255, 0.507);
+  padding: var(--S-smlr2);
+  z-index: 30;
+  aspect-ratio: 41/35;
+}
+
+.pilned {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(/media/ikon_pilned.svg);
 }
