@@ -16,12 +16,15 @@
   .col1 {
     display: grid;
     order: -1;
+    margin: var(--D-sml) var(--D-sml);
   }
   .col2 {
     display: grid;
+    margin: var(--D-sml) var(--D-sml);
   }
   .col3 {
     display: grid;
+    margin: var(--D-sml) var(--D-sml);
   }
 
   .grid1-1 {
@@ -29,11 +32,19 @@
     grid-template-columns: 1fr 1fr;
     margin-left: var(--D-mdm);
     margin-right: var(--D-mdm);
-    gap: 5rem;
+    gap: 3rem;
   }
   .grid1-1_no_mar {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: var(--D-mdm);
+    margin-right: var(--D-mdm);
+    gap: 3rem;
   }
 
   .grid2-1 {
@@ -41,7 +52,7 @@
     grid-template-columns: 2fr 1fr;
     margin-left: var(--D-mdm);
     margin-right: var(--D-mdm);
-    gap: 5rem;
+    gap: 3rem;
   }
 
   .grid2-1 {
@@ -49,7 +60,7 @@
     grid-template-columns: 1fr 2fr;
     margin-left: var(--D-mdm);
     margin-right: var(--D-mdm);
-    gap: 5rem;
+    gap: 3rem;
   }
 
   .grid5-4 {
@@ -124,4 +135,24 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 3;
 }

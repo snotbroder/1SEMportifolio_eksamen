@@ -44,7 +44,7 @@ html {
   --S-lrgst: 5rem;
   --S-lrgr: 6cqw;
   --S-lrg: 3rem;
-  --S-mdm: 2.5rem;
+  --S-mdm: 2cqw;
   --S-sml: 1.6cqw;
   --S-smlr2: 1.4cqw;
   --S-smlr: 1.2rem;
@@ -90,6 +90,13 @@ p {
   line-height: var(--S-lrg);
 }
 
+.billedebeskriv {
+  font-family: var(--F-p);
+  font-size: var(--S-smlst);
+  color: var(--C-black);
+  margin-top: var(--D-sml);
+}
+
 .lighttext {
   color: var(--C-white);
 }
@@ -100,8 +107,8 @@ p {
 /* -- CTA-knapper */
 .cta1 {
   max-height: 60%;
-  padding: var(--S-smlr) var(--S-lrgst);
-  margin: var(--D-sml);
+  padding: var(--S-smlr) var(--S-smlr) var(--S-mdm) var(--S-smlr);
+  /* margin: var(--D-sml); */
   font-family: var(--F-h2);
   font-size: var(--S-sml);
   color: var(--C-lightpurple);
@@ -198,6 +205,10 @@ p {
   max-height: 25rem;
 }
 
+.imgTyp2 {
+  border-radius: 3px;
+}
+
 .imgtyp1container {
   display: grid;
   place-items: start;
@@ -238,6 +249,11 @@ svg {
   aspect-ratio: 2/1;
   object-fit: cover;
   margin: auto;
+}
+
+.imgauto {
+  object-fit: cover;
+  height: 100%;
 }
 
 /* INDEX */
@@ -385,32 +401,29 @@ svg {
 #section1 {
   background-color: var(--C-lightgreen);
   height: auto;
-  padding-top: 11rem;
-  padding-bottom: 11rem;
+  padding-top: var(--D-lrgst);
+  padding-bottom: var(--D-lrgst);
 }
 
 #section2 {
   background-color: var(--C-lightpurple);
   height: auto;
+  padding-top: var(--D-lrgst);
+  padding-bottom: var(--D-lrgst);
 }
 
 #section3 {
   background-color: var(--C-purple);
   height: auto;
-  padding-top: 11rem;
-  padding-bottom: 11rem;
+  padding-top: var(--D-lrgst);
+  padding-bottom: var(--D-lrgst);
 }
 
 #section4 {
   background-color: var(--C-darkgreen);
   height: auto;
-  padding-left: var(--D-lrgst);
-  padding-right: var(--D-lrgst);
-
-  padding-top: 11rem;
-  padding-bottom: 11rem;
-}
-#section4 img {
+  padding-top: var(--D-lrgst);
+  padding-bottom: var(--D-lrgst);
 }
 
 /* Tekstboksstyling */
@@ -428,7 +441,7 @@ footer {
   text-decoration: none;
   color: var(--C-darkpurple);
   font-family: var(--F-h3);
-  font-size: var(--S-sml);
+  font-size: var(--S-mdm);
 }
 
 footer .grid1-1-1 {
@@ -454,6 +467,19 @@ footer .grid1-1-1 {
   color: var(--C-grey);
   margin-top: var(--D-lrg);
 }
+@media (max-width: 1060px) {
+  .footerunderlink {
+    border-right: 2px solid var(--C-white);
+    border-left: 2px solid var(--C-white);
+    height: auto;
+    margin-right: 1rem;
+    padding-bottom: auto;
+  }
+  .footerlink {
+    padding-bottom: auto;
+    margin: auto;
+  }
+}
 
 .pil_container {
   position: absolute;
@@ -473,4 +499,9 @@ footer .grid1-1-1 {
   height: 100%;
   background-size: cover;
   background-image: url(/media/ikon_pilned.svg);
+}
+
+.vl1 {
+  border-left: 2px solid black;
+  height: 1rem;
 }
