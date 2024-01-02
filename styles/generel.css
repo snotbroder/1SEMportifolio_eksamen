@@ -11,8 +11,14 @@ img {
   box-sizing: border-box;
 }
 
-/* Custom CSS properties */
 html {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--C-lightgreen);
+
+  /* Custom CSS properties */
+
   /* fonte */
   --F-h1: "Fira Sans Condensed", sans-serif;
   --F-h2: "Lato", sans-serif;
@@ -442,6 +448,7 @@ footer {
   color: var(--C-darkpurple);
   font-family: var(--F-h3);
   font-size: var(--S-mdm);
+  transition: var(--A-sftst);
 }
 
 footer .grid1-1-1 {
@@ -453,6 +460,7 @@ footer .grid1-1-1 {
   color: var(--C-purple);
   font-family: var(--F-h2);
   font-size: var(--S-smlr);
+  transition: var(--A-sftst);
 }
 
 .footerlink:hover,
@@ -467,6 +475,7 @@ footer .grid1-1-1 {
   color: var(--C-grey);
   margin-top: var(--D-lrg);
 }
+
 @media (max-width: 1060px) {
   .footerunderlink {
     border-right: 2px solid var(--C-white);

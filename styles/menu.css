@@ -48,22 +48,37 @@ header .navbar .menu li a:hover {
   transition: var(--A-sft);
 }
 
+.selected {
+  color: var(--C-white);
+  text-decoration: underline;
+  cursor: not-allowed;
+}
+
 /* Submenu (projekter) */
 header .navbar .menu li .submenu {
   position: absolute;
   display: none;
   left: 0;
   width: 100%;
-  background-color: var(--C-lightgreen);
+  background-color: var(--C-green);
   list-style: none;
+  border-radius: 0 0 3px 3px;
 }
 
 header .navbar .menu li:hover > ul {
   display: initial;
 }
 
+/* Projektfanen */
+header .navbar .menu li:hover:first-child {
+  background-color: var(--C-green);
+  border-radius: 3px 3px 0 0;
+}
+
 header .navbar .menu li .submenu a {
-  /* border-top: 1px solid black; */
+  border-top: 1px solid black;
+  border-radius: 0;
+  padding-left: 0;
 }
 
 .burgermenu {
