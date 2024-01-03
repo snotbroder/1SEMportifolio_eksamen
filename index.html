@@ -4,186 +4,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="generel.css" />
-    <link rel="stylesheet" href="layout.css">
-    <meta name="robots" content="noindex" />
+    <meta name="robots" content="noindex">
+    <title>Forside</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/generel.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/animation.css">
+
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Modak&family=Mukta&family=Patua+One&family=Quicksand:wght@600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Duru+Sans&family=Fira+Sans+Condensed&family=Lato&display=swap"
         rel="stylesheet">
 
-    <title>Forside</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io /apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io /favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io /favicon-16x16.png">
-    <link rel="manifest" href="favicon_io /site.webmanifest">
-
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 
-
 <body>
-    <header class="header">
-        <a href="index.html"><img class="logo" src="billederWebP/LogoWikiRutch.png" height="100" width="114"
-                alt="logo"></a>
 
-        <nav>
-            <div class="burger-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+
+
+    <section class="backgroundcolor" id="herosection">
+        <div id="backgroundblur">
+            <span class="dot1 backgroundmovement1"></span>
+        </div>
+        <header>
+            <a href="index.html"><img src="media/portfolioLogo.svg" alt="LOGO"></a>
+            <input type="checkbox" id="burger-menu">
+            <label for="burger-menu"> <img class="burgermenu" src="media/ikon_burgermenu.svg" alt=""></label>
+
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="#">Projekter <img class="ikonmenu" src="media/ikon_pilned.svg" alt=""></a>
+                        <ul class="submenu">
+                            <li><a href="tema_02.html">>Tema_02</a></li>
+                            <li><a href="tema_03.html">>Tema_03</a></li>
+                            <li><a href="tema_04.html">>Tema_04</a></li>
+                            <li><a href="tema_05.html">>Tema_05</a></li>
+                            <li><a href="tema_06.html">>Tema_06</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Om mig <img class="ikonmenu" src="media/ikon_mig.svg" alt=""></a></li>
+                    <li><a href="#">Galleri <img class="ikonmenu" src="media/ikon_galleri.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <div class="herotext_container">
+            <h1 class="herotext">PORTFOLIO</h1>
+        </div>
+        <div class="subherotext_container">
+            <h2 class="subherotext">Joris ten Voorde</h2>
+        </div>
+        <div id="wavesprites">
+            <div id="wave1_container">
+                <div class="wave_anim1 delay4" id="wave1">
+
+                </div>
             </div>
-            <ul class="nav-links">
-                <li class="menupunkt"><a href="wiki.html">Wiki</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="kalender.html">Kalender</a></li>
-                <li class="menupunkt"><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
+            <div id="wave2_container">
+                <div class="wave_anim1 delay3" id="wave2">
 
+                </div>
+            </div>
+            <div id="wave3_container">
+                <div class="wave_anim1 delay2" id="wave3">
 
-        <div class="search">
-            <img src="icons/searchicon.png" height="77" width="77" alt="søgeikon">
+                </div>
+            </div>
+            <div id="wave4_container">
+                <div class="wave_anim1 delay1" id="wave4">
+
+                </div>
+            </div>
+            <div id="wave5_container">
+                <div class="wave_anim1" id="wave5">
+                </div>
+            </div>
+        </div>
+        <div id="backgroundblur">
+            <span class="dot1 backgroundmovement1"></span>
         </div>
 
-        <div class="profile"><a href="bruger.html">
-                <img src="icons/profileicon.png" height="77" width="77" alt="profilikon"></a>
+        <div class="pil_container fade_in">
+            <div class="pilned pilned_anim "></div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="flexbox1">
+            <a id="buttonTema02" onclick="tema02()" class="cta2">Tema_02</a>
+            <a id="buttonTema03" onclick="tema03()" class="cta2">>Tema_03</a>
+            <a id="buttonTema04" onclick="tema04()" class="cta2">>Tema_04</a>
+            <a id="buttonTema05" onclick="tema05()" class="cta2">>Tema_05</a>
+            <a id="buttonTema06" onclick="tema06()" class="cta2">>Tema_06</a>
+
+        </div>
+        <div class="grid4-1">
+            <article id="temamenu02">
+                <div class="col1">
+                    <div class="imgtyp1container">
+                        <img class="imgTyp1" src="media/Assetprojekt2.webp" alt="Farvetema for projekt 2">
+                        <h1>Tema_02 Web</h1>
+                    </div>
+                    <div class="grid5-4 tekstbox">
+                        <div class="col1">
+
+
+                            <h2>Projekt: <text class="lighttext">Computersite</text></h2>
+
+                        </div>
+
+                        <div class="col2 ">
+                            <p>Her lærte vi om grid, layoutdiagrammer og basal styling af tekst, baggrunde
+                                og menuer samt introduktion til designprincipper...</p>
+                            <a href="tema_02.html" class="cta1 left">>Læs mere</a>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+            <article style="display: none;" id="temamenu03">
+                <div class="col1">
+                    <div class="imgtyp1container">
+                        <img class="imgTyp1" src="media/Assetprojekt3.webp" alt="Farvetema for projekt 2">
+                        <h1>Tema_03 UX/UI</h1>
+                    </div>
+                    <div class="grid5-4 tekstbox">
+                        <div class="col1">
+
+                            <h2>Projekt: <text class="lighttext">Rutchebane&shy;wiki</text></h2>
+
+                        </div>
+
+                        <div class="col2 ">
+                            <p>I dette tema lærte vi om research og dets metoder. Herunder interviews, observation og
+                                deskresearch...</p>
+                            <button class="cta1 left">Læs mere</button>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article style="display: none;" id="temamenu04">
+                <div class="col1">
+                    <div class="imgtyp1container">
+                        <img class="imgTyp1" src="media/Assetprojekt4.webp" alt="Farvetema for projekt 2">
+                        <h1 class="lighttext">Tema_04 Animation</h1>
+                    </div>
+                    <div class="grid5-4 tekstbox">
+                        <div class="col1">
+
+                            <h2>Projekt: <text class="lighttext">Ghoulish Goodies Galore</text></h2>
+                        </div>
+
+                        <div class="col2 ">
+                            <p>Her lærte vi grundlæggende CSS animation og hvordan vi kombinerer det med javascript, som
+                                vi også lærte i dette tema...
+                            </p>
+                            <button class="cta1 left">Læs mere</button>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article style="display: none;" id="temamenu05">
+                <div class="col1">
+                    <div class="imgtyp1container">
+                        <img class="imgTyp1" src="media/Assetprojekt5.webp" alt="Farvetema for projekt 2">
+                        <h1>Tema_05 Indhold</h1>
+                    </div>
+                    <div class="grid5-4 tekstbox">
+                        <div class="col1">
+                            <h2>Projekt: <text class="lighttext">Dragon Grill Express</text> </h2>
+
+                        </div>
+
+                        <div class="col2 ">
+                            <p>Vores første større gruppeprojekt. Vi lærte om at producere indhold - som video og
+                                billeder...</p>
+                            <button class="cta1 left">Læs mere</button>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article style="display: none;" id="temamenu06">
+                <div class="col1">
+                    <div class="imgtyp1container">
+                        <img class="imgTyp1" src="media/Assetprojekt6.webp" alt="Farvetema for projekt 2">
+                        <h1>Tema_06 Eksamen</h1>
+                    </div>
+                    <div class="grid5-4 tekstbox">
+                        <div class="col1">
+                            <h2>Projekt: <text class="lighttext">Portfolio</text></h2>
+
+                        </div>
+
+                        <div class="col2 ">
+                            <p>I dette tema har jeg udarbejdet et portfolio, og for første gang produceret noget uden
+                                vejledning eller undervisning...</p>
+                            <button class="cta1 left">Læs mere</button>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <div class="col2">
+                <!-- <div class="flexcolumn1">
+                    <button id="buttonTema02" onclick="tema02()" class="cta2">>Tema_02</button>
+                    <button id="buttonTema03" onclick="tema03()" class="cta2">>Tema_03</button>
+                    <button id="buttonTema04" onclick="tema04()" class="cta2">>Tema_04</button>
+                    <button id="buttonTema05" onclick="tema05()" class="cta2">>Tema_05</button>
+                    <button id="buttonTema06" onclick="tema06()" class="cta2">>Tema_06</button>
+
+                </div> -->
+            </div>
         </div>
 
-    </header>
-    <div class="prehead">
-        <video class="video1" src="billederWebP/126085(720p).mp4" autoplay loop muted></video>
+    </section>
+
+    <svg class="svgwave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#d0acc3" fill-opacity="1"
+            d="M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,80C1120,75,1280,117,1360,138.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+        </path>
+    </svg>
+
+    <section id="section3">
+
         <div class="grid1-1">
-
-            <img class="col-1" src="billederWebP/Wikiheader.webp" alt="WikiRutch Danmarks største rutchebanewiki">
-            <a class="col-2 cta" href="kalender.html">Til Kalenderen</a>
-        </div>
-    </div>
-    <main>
-
-        <div class="grid2-1">
-            <h1>Populære blogindlæg:</h1>
-            <br>
-
-
-            <div class="col-1">
-
-                <h2>Nedtælling til Spænding: Djurs Sommerlands Nye Drop Tower i 2024</h2>
+            <div class="col1">
+                <img src="media/dummyimage.svg" alt="">
             </div>
-            <div class="col-2">
-                <p>28. september 2023</p>
-                <p>Skrevet af ChatGPT</p><br>
+            <div class="col2">
+                <h2 class="lighttext">Lidt om mig</h2>
+                <p class="lighttext tekstbox">Inden jeg begyndte på Multimediedesigner i sommeren 2023, arbejdede
+                    jeg i
+                    Tivoli
+                    som
+                    forlystelseskontrollør. Når jeg ikke læste til multimediedesigner, arbejder jeg af og til for et
+                    firma som producerer lys-kunstværker. Firmaet har deltaget i Copenhagen Light Festival de sidste
+                    par
+                    år og...</p>
+                <a href="ommig.html" class="cta1 right">Læs mere</a>
             </div>
+
+
         </div>
-        <hr class="linje1">
+
+
+    </section>
+    <svg class="svgwave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#7c896f" fill-opacity="1"
+            d="M0,288L48,277.3C96,267,192,245,288,218.7C384,192,480,160,576,138.7C672,117,768,107,864,133.3C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <section id="section4">
+
         <div class="grid1-1-1">
-            <div class="kolonne1">
-                <p>
-                    Djurs Sommerland har annonceret en forbløffende ny tilføjelse til deres line-up for
-                    2024-sæsonen -
-                    en
-                    højteknologisk Drop Tower, der endnu ikke har fået et officielt navn. Denne nye attraktion
-                    lover at
-                    dominere
-                    himlen over Djurs Sommerland med sin imponerende højde og hjerte-rasende drop.
-                </p>
-
-
-                <div class="faktaboks">
-                    <h3>Vidste du?</h3>
-
-                    <ul>
-                        <li>
-                            <p>Hastigheden er op til 100km/t</p>
-                        </li>
-                        <li>
-                            <p>Højden på tårnet kommer til at blive 60m</p>
-                        </li>
-                        <li>
-                            <p>Temaet er mexicansk inspireret</p>
-                        </li>
-                    </ul>
-
-                </div>
+            <div class="col1">
+                <h2 class="lighttext">Galleri</h2>
             </div>
-            <div class="kolonne2">
-                <p>Besøgende vil blive løftet til himmelske højder, hvor de kan beundre den betagende udsigt,
-                    inden den
-                    utrolige
-                    nedstigning begynder.
-                    Det bliver en adrenalinfremkaldende oplevelse som ingen andre, med det frie fald, der giver
-                    både
-                    frygt
-                    og
-                    glæde
-                    på blot et par sekunder.</p>
-                <img class="artikelbillede" src="billederWebP/Fireflydroptowerforamusementparkgreen37676.webp"
-                    width="1024" height="1024" alt="drop tower top">
-                <br>
-                <br>
-            </div>
-            <div class="kolonne3">
-                <img class="artikelbillede" src="billederWebP/Fireflydroptowerforamusementparkgreen75098.webp"
-                    height="1024" width="1024" alt="drop tower bottom">
-                <p>Djurs Sommerlands ingeniører og designere har arbejdet utrætteligt for at sikre, at denne
-                    Drop Tower
-                    sætter
-                    nye
-                    standarder for spænding og sikkerhed.
-                    Parken er dedikeret til at levere verdensklasse-oplevelser og sikre, at besøgende altid er i
-                    gode
-                    hænder.
-                    Nyheden for 2024 bliver et af højdepunkterne i Djurs Sommerland og styrker parkens position
-                    som en
-                    topdestination for forlystelsesentusiaster.
-                    Besøgende fra nær og fjern vil have mulighed for at opleve dette uforglemmelige eventyr og
-                    skabe
-                    minder
-                    for
-                    livet.</p>
-            </div>
+            <div class="col2"></div>
+            <div class="col3"></div>
+        </div>
+
+        <div class="grid1-1-1">
+            <div class="col1"><img class="img1-1" src="media/dummyimage.svg" alt=""></div>
+            <div class="col2"><img class="img1-1" src="media/dummyimage.svg" alt=""></div>
+            <div class="col3"><img class="img1-1" src="media/dummyimage.svg" alt=""></div>
 
         </div>
-        <hr class="linje1">
-        <div class="nyhedsbrev">
+        <a href="galleri.html" class="cta2 center">Se galleri</a>
+    </section>
 
-            <h3>Tilmeld dig nyhedsbrevet</h3>
+    <footer>
 
-            <br>
-            <div class="grid1-1-1">
-                <div class="kolonne1">
-                    <fieldset>
-                        Email
-                    </fieldset>
-                </div>
-
-                <div class="kolonne2">
-                    <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required
-                            name="terms-and-conditions" class="inline"></label>
-                    <p>
-                        Jeg accepterer <a href="">terms og conditions</a></p>
-
-                </div>
-                <div class="kolonne3">
-                    <div class="cta">
-                        Tilmeld!
+        <div class="grid1-1-1 flexbox2">
+            <div class="col1"><a class="footerlink left" href="index.html#section2">Projekter</a>
+                <div class="grid1-1">
+                    <div class="flexcolumn2">
+                        <a class="footerunderlink" href="tema_02.html">Tema_02</a>
+                        <a class="footerunderlink" href="tema_03.html">Tema_03</a>
+                        <a class="footerunderlink" href="tema_04.html">Tema_04</a>
+                    </div>
+                    <div class="flexcolumn1">
+                        <a class="footerunderlink" href="tema_05.html">Tema_04</a>
+                        <a class="footerunderlink" href="tema_06.html">Tema_06</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer class="footer">
 
-        <a href="wiki.html" class="footer1">Wiki</a>
-        <a href="kontakt.html" class="footer2">Kontakt</a>
-        <a href="index.html" class="footer3">Forside</a>
-        <a href="bruger.html" class="footer4">Opret Bruger</a>
-        <a href="blog.html" class="footer5">Blog</a>
-        <a href="kalender.html" class="footer6">Kalender</a>
-        <img class="footer7" src="billederWebP/footerbillede.png" alt="footerbillede">
+            <div class="col2">
+                <a class="footerlink left " href="ommig.html">Om mig</a>
+                <div class="flexcolumn2">
+                    <a class="footerunderlink" href="#">Før KEA</a>
+                    <a class="footerunderlink" href="#">I min fritid</a>
+                </div>
+            </div>
+
+            <div class="col3">
+                <a class="footerlink left" href="galleri.html">Galleri</a>
+                <div class="flexcolumn2">
+                    <a class="footerunderlink" href="#">Små projekter</a>
+                    <a class="footerunderlink" href="#">Større projekter</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footerafslutning center">Copyright 2023 Joris ten Voorde</div>
+
     </footer>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
