@@ -60,7 +60,7 @@ header .navbar .menu li .submenu {
   display: none;
   left: 0;
   width: 100%;
-  background-color: var(--C-green);
+  background-color: var(--C-lightpurple);
   list-style: none;
   border-radius: 0 0 3px 3px;
 }
@@ -71,7 +71,7 @@ header .navbar .menu li:hover > ul {
 
 /* Projektfanen */
 header .navbar .menu li:hover:first-child {
-  background-color: var(--C-green);
+  background-color: var(--C-lightpurple);
   border-radius: 3px 3px 0 0;
 }
 
