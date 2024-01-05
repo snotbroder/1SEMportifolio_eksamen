@@ -518,3 +518,8 @@ footer .grid1-1-1 {
   border-left: 2px solid black;
   height: 1rem;
 }
+
+.hr1 {
+  border: var(--C-darkpurple) solid 3px;
+  margin: var(--D-sml) var(--D-lrg) var(--D-sml) var(--D-lrg);
+}

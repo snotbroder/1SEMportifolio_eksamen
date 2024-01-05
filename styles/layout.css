@@ -127,6 +127,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  .hr1 {
+    border: var(--C-darkpurple) solid 3px;
+    margin: var(--D-lrg) var(--D-smlr) var(--D-mdm) var(--D-smlr);
+  }
 }
 
 /* Flexbox glæder både desktop og mobile */
