@@ -234,13 +234,11 @@ h1 {
   -webkit-text-stroke-width: 1px;
 }
 
-svg {
-  position: relative;
-  width: 100%;
+.svg1 {
+  margin-left: -3rem;
+  margin-right: -3rem;
+  margin-bottom: -7rem;
   height: auto;
-  margin-bottom: -8rem;
-}
-.svgwave1 {
 }
 
 .svgwave2 {
