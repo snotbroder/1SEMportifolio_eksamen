@@ -113,7 +113,8 @@ p {
 /* -- CTA-knapper */
 .cta1 {
   max-height: 60%;
-  padding: var(--S-smlr) var(--S-smlr) var(--S-mdm) var(--S-smlr);
+  max-width: 100%;
+  padding: var(--S-smlr) var(--S-smlr) var(--S-lrg) var(--S-smlr);
   /* margin: var(--D-sml); */
   font-family: var(--F-h2);
   font-size: var(--S-sml);
@@ -148,8 +149,10 @@ p {
 
 .cta2 {
   width: 15vw;
-  height: 7vh;
+  height: auto;
+
   padding-top: var(--D-sml);
+  /* padding-bottom: var(--D-sml); */
   padding-bottom: var(--D-sml);
   margin: var(--D-sml);
   font-family: var(--F-h2);
@@ -235,6 +238,7 @@ svg {
   position: relative;
   width: 100%;
   height: auto;
+  margin-bottom: -8rem;
 }
 .svgwave1 {
 }
