@@ -27,6 +27,11 @@
     margin: var(--D-sml) var(--D-sml);
   }
 
+  .col4 {
+    display: grid;
+    margin: var(--D-sml) var(--D-sml);
+  }
+
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -160,4 +165,14 @@
   flex-direction: row;
   justify-content: space-between;
   flex-shrink: 3;
+}
+
+.grid1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-left: var(--D-mdm);
+  margin-right: var(--D-mdm);
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
 }

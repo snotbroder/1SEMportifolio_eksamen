@@ -225,6 +225,7 @@ a {
 .imgtyp1container {
   display: grid;
   place-items: start;
+  min-width: 88vw;
 }
 .imgtyp1container img,
 h1 {
@@ -248,11 +249,16 @@ h1 {
   padding-left: var(--D-sml);
   margin-top: auto;
   transition: var(--A-sft);
+  color: var(--C-darkpurple);
+  background-color: var(--C-lightpurple);
+  padding-left: 15%;
+  padding-right: 10%;
 }
 
 .imgtyp1container:hover .tekstipic {
-  transform: scale(0.8);
+  transform: scale(0.9);
   transition: var(--A-sftr);
+  color: var(--C-purple);
 }
 
 .svg1 {
