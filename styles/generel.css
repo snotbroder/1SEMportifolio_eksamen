@@ -110,6 +110,10 @@ p {
   color: var(--C-black);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* -- CTA-knapper */
 .cta1 {
   max-height: 60%;
@@ -226,12 +230,29 @@ p {
 h1 {
   grid-area: 1/1;
 }
+
+.imgtyp1container img,
+.tekstipic {
+  grid-area: 1/1;
+}
+
 .imgtyp1container h1 {
   padding-left: var(--D-sml);
   margin-top: auto;
 
   -webkit-text-stroke: var(--C-darkpurple);
   -webkit-text-stroke-width: 1px;
+}
+
+.imgtyp1container .tekstipic {
+  padding-left: var(--D-sml);
+  margin-top: auto;
+  transition: var(--A-sft);
+}
+
+.imgtyp1container:hover .tekstipic {
+  transform: scale(0.8);
+  transition: var(--A-sftr);
 }
 
 .svg1 {
