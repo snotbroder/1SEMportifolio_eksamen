@@ -225,7 +225,7 @@ a {
 .imgtyp1container {
   display: grid;
   place-items: start;
-  min-width: 88vw;
+  min-width: 90vw;
 }
 .imgtyp1container img,
 h1 {
