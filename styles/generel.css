@@ -103,6 +103,7 @@ p {
   font-size: var(--S-smlst);
   color: var(--C-black);
   margin-top: var(--D-sml);
+  margin-bottom: var(--D-mdm);
 }
 
 .lighttext {
@@ -121,7 +122,7 @@ a {
   max-height: 60%;
   max-width: 100%;
   padding: var(--S-smlr) var(--S-smlr) var(--S-lrg) var(--S-smlr);
-  /* margin: var(--D-sml); */
+  margin-bottom: var(--D-lrg);
   font-family: var(--F-h2);
   font-size: var(--S-sml);
   color: var(--C-lightpurple);
@@ -252,7 +253,7 @@ h1 {
   margin-top: auto;
   transition: var(--A-sft);
   color: var(--C-darkpurple);
-  background-color: var(--C-lightpurple);
+
   padding-left: 15%;
   padding-right: 10%;
 }
@@ -540,11 +541,6 @@ footer .grid1-1-1 {
   height: 100%;
   background-size: cover;
   background-image: url(/media/ikon_pilned.svg);
-}
-
-.vl1 {
-  border-left: 2px solid black;
-  height: 1rem;
 }
 
 .hr1 {

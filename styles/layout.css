@@ -167,12 +167,19 @@
   flex-shrink: 3;
 }
 
+/* Andre opgaver slider */
 .grid1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3rem;
   margin-left: var(--D-mdm);
   margin-right: var(--D-mdm);
-  overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  margin-bottom: var(--D-mdm);
+}
+
+.grid1-1-1-1 .imgtyp1container {
+  scroll-snap-align: start;
 }
