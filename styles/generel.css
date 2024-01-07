@@ -51,7 +51,7 @@ html {
   --S-lrgr: 6cqw;
   --S-lrg: 3rem;
   --S-mdm: 2cqw;
-  --S-sml: 1.6cqw;
+  --S-sml: 1.6rem;
   --S-smlr2: 1.4cqw;
   --S-smlr: 1.2rem;
   --S-smlst: 0.8rem;
@@ -61,6 +61,8 @@ html {
   --A-sftst: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   --A-sftr: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
   --A-sft: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  scroll-behavior: smooth;
 }
 
 /* -- Tekst style -- */
@@ -160,7 +162,7 @@ a {
   padding-bottom: var(--D-sml);
   margin: var(--D-sml);
   font-family: var(--F-h2);
-  font-size: var(--S-sml);
+  font-size: var(--S-smlr2);
   color: var(--C-lightpurple);
   background-color: var(--C-purple);
   border: none;
@@ -490,6 +492,7 @@ footer .grid1-1-1 {
   font-family: var(--F-h2);
   font-size: var(--S-smlr);
   transition: var(--A-sftst);
+  letter-spacing: 0.1rem;
 }
 
 .footerlink:hover,
