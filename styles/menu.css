@@ -59,10 +59,11 @@ header .navbar .menu li .submenu {
   position: absolute;
   display: none;
   left: 0;
-  width: 100%;
+  width: 145%;
+  height: auto;
   background-color: var(--C-lightpurple);
   list-style: none;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 3px 3px 3px;
 }
 
 header .navbar .menu li:hover > ul {
@@ -90,6 +91,7 @@ header .navbar .menu li .submenu a {
   display: none;
 }
 
+/* Mobileview */
 @media (max-width: 1060px) {
   .ikonmenu {
     width: 4%;
@@ -130,14 +132,18 @@ header .navbar .menu li .submenu a {
     left: 0;
     top: 0;
     background-color: var(--C-darkgreen);
-    max-height: 30vw; /* Set a maximum height for the submenu */
-    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    max-height: 30vw;
+    overflow-y: auto;
     overflow-x: hidden;
     z-index: 20;
   }
 
   header .navbar .menu li .submenu a {
     /* border-top: 1px solid black; */
+  }
+
+  header .navbar .menu li .submenu {
+    width: 100%;
   }
 
   #burger-menu:checked ~ .navbar {
