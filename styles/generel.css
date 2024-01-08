@@ -516,10 +516,8 @@ footer .grid1-1-1 {
     border-left: 2px solid var(--C-white);
     height: auto;
     margin-right: 1rem;
-    padding-bottom: auto;
   }
   .footerlink {
-    padding-bottom: auto;
     margin: auto;
   }
 }
