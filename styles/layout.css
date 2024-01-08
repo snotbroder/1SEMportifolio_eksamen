@@ -167,7 +167,7 @@
   flex-shrink: 3;
 }
 
-/* Andre opgaver slider */
+/* opgaver slider */
 .grid1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
