@@ -441,28 +441,28 @@ h1 {
   background-color: var(--C-lightgreen);
   height: auto;
   padding-top: var(--D-lrgst);
-  padding-bottom: var(--D-lrgst);
+  padding-bottom: var(--D-sml);
 }
 
 #section2 {
   background-color: var(--C-lightpurple);
   height: auto;
   padding-top: var(--D-lrgst);
-  padding-bottom: var(--D-lrgst);
+  padding-bottom: var(--D-sml);
 }
 
 #section3 {
   background-color: var(--C-purple);
   height: auto;
   padding-top: var(--D-lrgst);
-  padding-bottom: var(--D-lrgst);
+  padding-bottom: var(--D-sml);
 }
 
 #section4 {
   background-color: var(--C-darkgreen);
   height: auto;
   padding-top: var(--D-lrgst);
-  padding-bottom: var(--D-lrgst);
+  padding-bottom: var(--D-sml);
 }
 
 /* Tekstboksstyling */
