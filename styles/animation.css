@@ -20,7 +20,7 @@
 
 .backgroundcolor {
   animation-name: backgroundcolor_kf;
-  animation-duration: 30s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
