@@ -138,10 +138,6 @@ header .navbar .menu li .submenu a {
     z-index: 20;
   }
 
-  header .navbar .menu li .submenu a {
-    /* border-top: 1px solid black; */
-  }
-
   header .navbar .menu li .submenu {
     width: 100%;
   }
