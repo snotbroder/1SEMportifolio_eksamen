@@ -12,6 +12,8 @@
   display: flex;
   justify-self: start;
 }
+
+/* Dektop */
 @media (min-width: 1060px) {
   .col1 {
     display: grid;
@@ -35,8 +37,8 @@
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     gap: 3rem;
   }
   .grid1-1_no_mar {
@@ -47,32 +49,32 @@
   .grid1-2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     gap: 3rem;
   }
 
   .grid2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     gap: 3rem;
   }
 
   .grid2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     gap: 3rem;
   }
 
   .grid5-4 {
     display: grid;
     grid-template-columns: 5fr 4fr;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     gap: 2rem;
   }
 
@@ -80,16 +82,16 @@
     display: flex;
     grid-template-columns: 4fr 1fr;
     gap: 1rem;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
     width: auto;
   }
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
-    margin-left: var(--D-mdm);
-    margin-right: var(--D-mdm);
+    margin-left: var(--D-lrgr);
+    margin-right: var(--D-lrgr);
   }
 
   .flexcolumn1 {
@@ -106,9 +108,10 @@
   }
 }
 
+/* Mobile */
 @media (max-width: 1060px) {
   #section1 {
-    padding-left: var(--D-sml);
+    padding-left: var(--D-mdm);
     padding-right: var(--D-sml);
   }
 
@@ -131,6 +134,11 @@
     padding-right: var(--D-sml);
   }
 
+  #section6 {
+    padding-left: var(--D-sml);
+    padding-right: var(--D-sml);
+  }
+
   .flexbox2 {
     display: flex;
     flex-direction: row;
@@ -141,6 +149,16 @@
   .hr1 {
     border: var(--C-darkpurple) solid 3px;
     margin: var(--D-lrg) var(--D-smlr) var(--D-mdm) var(--D-smlr);
+  }
+
+  .wave_divider {
+    display: inherit;
+    width: 110%;
+    z-index: 30;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 }
 
