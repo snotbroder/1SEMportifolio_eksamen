@@ -276,23 +276,14 @@ h1 {
   border-radius: 0 3px 3px 0;
 }
 
-/* Wave dividers */
-.wave_divider {
-  display: inherit;
-  width: 100%;
-  z-index: 30;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-}
-
 .img1-1 {
   aspect-ratio: 1/1;
   object-fit: cover;
   margin: auto;
 }
 
-.img2-1 {
-  aspect-ratio: 2/1;
+.img1-2 {
+  aspect-ratio: 1/2;
   object-fit: cover;
   margin: auto;
 }
@@ -302,6 +293,14 @@ h1 {
   height: 100%;
 }
 
+/* Wave dividers image */
+.wave_divider {
+  display: inherit;
+  width: 100%;
+  z-index: 30;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
 /* INDEX */
 #herosection {
   width: 100%;
