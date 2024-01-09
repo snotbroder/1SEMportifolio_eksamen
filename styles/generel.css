@@ -601,3 +601,8 @@ footer .grid1-1-1 {
   background-size: cover;
   background-image: url(../media/ikon_pil_right.svg);
 }
+
+.video {
+  width: 100%;
+  border-radius: 5px;
+}
