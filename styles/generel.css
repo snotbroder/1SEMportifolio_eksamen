@@ -465,8 +465,7 @@ h1 {
 #section4 {
   background-color: var(--C-darkgreen);
   height: auto;
-
-  padding-bottom: var(--D-mdm);
+  padding-bottom: var(--D-sml);
 }
 
 #section5 {
