@@ -160,6 +160,13 @@
     margin-left: -1rem;
     margin-right: -1rem;
   }
+
+  .cta2 {
+    width: 22vw;
+    height: auto;
+    padding: var(--D-sml) var(--D-sml) var(--D-sml) var(--D-sml);
+    margin: var(--D-sml);
+  }
 }
 
 /* Flexbox glæder både desktop og mobile */
